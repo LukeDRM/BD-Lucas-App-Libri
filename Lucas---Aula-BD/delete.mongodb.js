@@ -1,8 +1,9 @@
-const database = 'BD3-OTAVIO-AULA';
+const database = 'BD3-Lucas';
 const collection = 'LIVRARIA';
 
 use(database);
 
 /*Altera os dados de um documento.*/
-db[collection].updateOne()
-{}
+db[collection].deleteOne(
+    {codigo:'9'}
+);

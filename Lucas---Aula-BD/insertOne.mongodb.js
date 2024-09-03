@@ -5,14 +5,14 @@ use(database);
 
 /* INSERE UM NOVO REGISTRO NA COLEÇÃO DE DADOS */
 db[collection].insertOne(
-    {
-        "codigo":"2",
-        "titulo": "O Sol Desvelado",
-        "autor": "Isaac Asimov",
-        "descricao": "Um homem morto, um robô danificado e um crime sem solução. Convocado para uma reunião em Washington, Elijah Baley descobre que foi escalado para investigar um novo crime. Desta vez, porém, o policial deverá deixar a segurança da Terra e enfrentar sua fobia de espaços abertos.",
-        "imagem":"/livros/sol_desvelado.jpg",
-        "valor": 100,
-        "categoria":"Ficção Científica"
-      }
+  {
+    "codigo":"3",
+    "titulo": "Os Robôs da Alvorada",
+    "autor": "Isaac Asimov",
+    "descricao": "Em meio à mais evoluída colônia humana fora da Terra, ocorre um crime sem precedentes: um robô humaniforme é assassinado, colocando em xeque a reputação de um importante estudioso daquele planeta, único suspeito do crime.",
+    "imagem":"/livros/robos_alvorada.jpg",
+    "valor": 115,
+    "categoria":"Ficção Científica"
+  },
 
     )
